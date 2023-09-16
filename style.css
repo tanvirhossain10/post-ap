@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+li {
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 10px;
+    border: 10px solid red;
+    margin: 20px;
+}
+
+.postClass {
+    background-color: cornsilk;
+}
+
+
+
+.commentClass {
+    background-color: cornflowerblue;
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+
+}
+
+#showCmntBtn {
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
